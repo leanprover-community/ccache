@@ -24,6 +24,8 @@ static const struct {
 	const char *extension;
 	const char *language;
 } extensions[] = {
+        {".lean", "lean"},
+        {".olean", "lean-output"},
 	{".c",   "c"},
 	{".C",   "c++"},
 	{".cc",  "c++"},
@@ -115,6 +117,7 @@ static const struct {
 	{"assembler",                "assembler"},
 	{"f77-cpp-input",            "f77"},
 	{"f77",                      "f77"},
+	{"lean",                     "lean"},
 #if 0 // Could generate module files, ignore for now!
 	{"f95-cpp-input",            "f95"},
 	{"f95",                      "f95"},

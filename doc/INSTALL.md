@@ -51,6 +51,7 @@ To install for the second method, do something like this:
     ln -s ccache /usr/local/bin/g++
     ln -s ccache /usr/local/bin/cc
     ln -s ccache /usr/local/bin/c++
+    ln -s ccache /usr/local/bin/lean
 
 And so forth. This will work as long as `/usr/local/bin` comes before the path
 to the compiler (which is usually in `/usr/bin`). After installing you may wish
